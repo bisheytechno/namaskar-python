@@ -1,28 +1,28 @@
 name = "Bishal"
 
-# print(len(name))
-# print(name.find("a"))
-# print(name.capitalize())
-# print(name.upper())
-# print(name.lower())
-# print(name.isdigit())
-# print(name.isalpha())
-# print(name.count("l"))
-# print(name.replace("l", "a"))
-# print(name*3)
+print(len(name))
+print(name.find("a"))
+print(name.capitalize())
+print(name.upper())
+print(name.lower())
+print(name.isdigit())
+print(name.isalpha())
+print(name.count("l"))
+print(name.replace("l", "a"))
+print(name*3)
 
 
 
 # 2nd example
 
-# name = input("Enter your full name: ")
+name = input("Enter your full name: ")
 
-# result = len(name)
+result = len(name)
 
-# result = name.find(" ")
-# result = name.rfind("l")
+result = name.find(" ")
+result = name.rfind("l")
 
-# print(result)
+print(result)
 
 
 # 3rd example
