@@ -22,6 +22,7 @@ gpa = 3.6
 distance = 5.6 
 price = 10.99
 
+
 print(f"Your gpa is ${gpa}")
 print(f"You ran ${distance}")
 print(f"The price is ${price}")
@@ -31,12 +32,15 @@ print(f"The price is ${price}")
 
 name = "Mike"
 food = "Bhuteko Bhat"
+fav_place = "Mustang"
 email = "brokxa123@gmail.com"
+
 
 
 print(f"Hello {name}")
 print(f"You like {food}")
 print(f"Your email is : {email}")
+print(f"Your favourite place is : {fav_place}")
 
 
 
