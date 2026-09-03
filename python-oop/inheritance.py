@@ -27,11 +27,17 @@ class Mouse(Animal):
     def speak(self):
         print("SQUEEK!")
 
+class Snake(Animal):
+    def speak(self):
+        print("Hisshh!")
+
 dog = Dog("Scooby")
 cat = Cat("Garfield")
 mouse = Mouse("Mickey")
+snake = Snake("Robin")
 
 dog.speak()
 print(cat.is_alive)
 cat.eat()
 cat.sleep()
+snake.eat()
