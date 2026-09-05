@@ -1,46 +1,46 @@
-# from abc import ABC, abstractmethod
+from abc import ABC, abstractmethod
 
-# class Animal(ABC):
+class Animal(ABC):
 
-#     @abstractmethod
-#     def sound(self):
-#         pass
+    @abstractmethod
+    def sound(self):
+        pass
 
-#     @abstractmethod
-#     def move(self):
-#         pass
-
-
-# class Dog(Animal):
-#     def sound(self):
-#         print("The dog is barking!")
-
-#     def move(self):
-#         print("The dog is running!")
+    @abstractmethod
+    def move(self):
+        pass
 
 
-# class Bird(Animal):
-#     def sound(self):
-#         print("The bird is chirping!")
+class Dog(Animal):
+    def sound(self):
+        print("The dog is barking!")
 
-#     def move(self):
-#         print("The bird is flying in the air!")
-
-
-# class Fish(Animal):
-#     def sound(self):
-#         print("The fish is silent...")
-
-#     def move(self):
-#         print("The fish is swimming under the water!")
+    def move(self):
+        print("The dog is running!")
 
 
-# animals = [Dog(), Bird(), Fish()]
+class Bird(Animal):
+    def sound(self):
+        print("The bird is chirping!")
 
-# for animal in animals:
-#     animal.sound()
-#     animal.move()
-#     print("----------")
+    def move(self):
+        print("The bird is flying in the air!")
+
+
+class Fish(Animal):
+    def sound(self):
+        print("The fish is silent...")
+
+    def move(self):
+        print("The fish is swimming under the water!")
+
+
+animals = [Dog(), Bird(), Fish()]
+
+for animal in animals:
+    animal.sound()
+    animal.move()
+    print("----------")
 
 
 
